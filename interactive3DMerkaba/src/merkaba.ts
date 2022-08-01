@@ -257,7 +257,7 @@ const sketch = ({ context, canvas, width, height }: any) => {
   }
 
   // Loops on every frame
-  const update = (time: any, deltaTime: any) => {
+  const update = () => {
     if (options.merkabaRotaion) {
       // Set merkaba rotation speed - SPIN MERKABA!
       merkabaMesh.rotateOnWorldAxis(
@@ -672,10 +672,10 @@ const sketch = ({ context, canvas, width, height }: any) => {
       camera.aspect = viewportWidth / viewportHeight;
       camera.updateProjectionMatrix();
     },
-    render({ time, deltaTime }: any) {
+    render({}: any) {
       stats.begin();
       controls.update();
-      update(time, deltaTime);
+      update();
       renderer.render(scene, camera);
       composer.render();
       stats.end();
