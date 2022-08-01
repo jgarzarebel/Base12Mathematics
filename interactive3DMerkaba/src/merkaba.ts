@@ -4,21 +4,6 @@ Taygetan/Swaruunian 3D Merkaba
 */
 
 import "./style.css";
-
-// // @ts-ignore
-// import * as THREE from "https://cdn.skypack.dev/three";
-// // @ts-ignore
-// import Stats from "https://cdn.skypack.dev/three/examples/jsm/libs/stats.module.js";
-// // @ts-ignore
-// import { GUI } from "https://cdn.skypack.dev/three/examples/jsm/libs/lil-gui.module.min.js";
-// OR import {GUI as lilgui} from 'https://cdn.skypack.dev/lil-gui';
-// // @ts-ignore
-// import { OrbitControls } from "https://cdn.skypack.dev/three/examples/jsm/controls/OrbitControls.js";
-// // @ts-ignore
-// import { Water } from "https://cdn.skypack.dev/three/examples/jsm/objects/Water.js";
-// // @ts-ignore
-// import { Sky } from "https://cdn.skypack.dev/three/examples/jsm/objects/Sky.js";
-
 import * as THREE from "three";
 import Stats from "three/examples/jsm/libs/stats.module.js";
 import { GUI } from "lil-gui";
@@ -29,14 +14,6 @@ import { RenderPass } from "three/examples/jsm/postprocessing/RenderPass";
 import { UnrealBloomPass } from "three/examples/jsm/postprocessing/UnrealBloomPass";
 import * as BufferGeometryUtils from "three/examples/jsm/utils/BufferGeometryUtils.js";
 import { BufferGeometry } from "three";
-// @ts-ignore TODO: Remove canvasSketch
-import canvasSketch from "canvas-sketch";
-
-const settings = {
-  animate: true,
-  context: "webgl",
-  resizeCanvas: false,
-};
 
 function rotateObject(
   object: BufferGeometry,
@@ -49,7 +26,8 @@ function rotateObject(
   object.rotateZ(THREE.MathUtils.degToRad(degreeZ));
 }
 
-const sketch = ({ context, canvas, width, height }: any) => {
+const init = () => {
+  let container: HTMLElement;
   // ----
   // Add FPS Stats
   // ----
@@ -98,17 +76,23 @@ const sketch = ({ context, canvas, width, height }: any) => {
   // Setup Three.js
   // ----
 
-  // Main render
+  container = <HTMLElement>document.getElementById("container");
+
+  // Main Render
   const renderer = new THREE.WebGLRenderer({
-    context,
     antialias: false,
   });
   renderer.setClearColor(options.backgroundColor, 1);
+  const dpr = Math.min(window.devicePixelRatio, 2);
+  renderer.setPixelRatio(dpr);
+  renderer.setSize(container.clientWidth, container.clientHeight);
+  container.appendChild(renderer.domElement);
   // Camera
   const camera = new THREE.PerspectiveCamera(45, 1, 0.01, 100);
+  camera.aspect = container.clientWidth / container.clientHeight;
   camera.position.set(0, 40, 50);
   // Enable Oribtal Controls (Left Mouse Move)
-  const controls = new OrbitControls(camera, canvas);
+  const controls = new OrbitControls(camera, renderer.domElement);
   controls.enabled = true;
   // Create a Scene for 3D objects
   const scene = new THREE.Scene();
@@ -120,7 +104,7 @@ const sketch = ({ context, canvas, width, height }: any) => {
   // Create a Glow Effect
   const renderPass = new RenderPass(scene, camera);
   const bloomPass = new UnrealBloomPass(
-    new THREE.Vector2(width, height),
+    new THREE.Vector2(container.clientWidth, container.clientHeight),
     options.bloomStrength,
     options.bloomRadius,
     options.bloomThreshold
@@ -326,13 +310,6 @@ const sketch = ({ context, canvas, width, height }: any) => {
   if (options.etherTorus) {
     createTours(options.etherTorusTickness);
   }
-
-  // TODO: Remove sketch and use windows events.
-  //   window.addEventListener("resize", () => {
-  //     camera.aspect = window.innerWidth / window.innerHeight;
-  //     camera.updateProjectionMatrix();
-  //     renderer.setSize(window.innerWidth, window.innerHeight);
-  //   });
 
   // ----
   // Ultra Glow Effect
@@ -649,47 +626,52 @@ const sketch = ({ context, canvas, width, height }: any) => {
     });
 
   // ----
-  // Render Lifecycle
+  // Render Lifecycle (Risize & Render)
   // ----
 
-  return {
-    resize({ canvas, pixelRatio, viewportWidth, viewportHeight }: any) {
-      const dpr = Math.min(pixelRatio, 2); // Cap DPR scaling to 2x
+  // -- EventListeners --
+  window.addEventListener("resize", () => {
+    resize();
+  });
 
-      canvas.width = viewportWidth * dpr;
-      canvas.height = viewportHeight * dpr;
-      canvas.style.width = viewportWidth + "px";
-      canvas.style.height = viewportHeight + "px";
+  // Updates three.js canvas
+  function resize() {
+    const dpr = Math.min(window.devicePixelRatio, 2); // Cap DPR scaling to 2x
 
-      bloomPass.resolution.set(viewportWidth, viewportHeight);
+    const canvas = renderer.domElement;
+    canvas.width = container.clientWidth * dpr;
+    canvas.height = container.clientHeight * dpr;
+    canvas.style.width = container.clientWidth + "px";
+    canvas.style.height = container.clientHeight + "px";
 
-      renderer.setPixelRatio(dpr);
-      renderer.setSize(viewportWidth, viewportHeight);
+    bloomPass.resolution.set(container.clientWidth, container.clientHeight);
 
-      composer.setPixelRatio(dpr);
-      composer.setSize(viewportWidth, viewportHeight);
+    renderer.setPixelRatio(dpr);
+    renderer.setSize(container.clientWidth, container.clientHeight);
 
-      camera.aspect = viewportWidth / viewportHeight;
-      camera.updateProjectionMatrix();
-    },
-    render({}: any) {
-      stats.begin();
-      controls.update();
-      update();
-      renderer.render(scene, camera);
-      composer.render();
-      stats.end();
-    },
-    unload() {
-      merkabaMaterial.dispose();
-      hdrEquirect.dispose();
-      controls.dispose();
-      renderer.dispose();
-      bloomPass.dispose();
-      gui.destroy();
-      document.body.removeChild(stats.dom);
-    },
-  };
+    composer.setPixelRatio(dpr);
+    composer.setSize(container.clientWidth, container.clientHeight);
+
+    camera.aspect = container.clientWidth / container.clientHeight;
+    camera.updateProjectionMatrix();
+  }
+
+  // Animates three.js objects (loop)
+  function render() {
+    requestAnimationFrame(render);
+    stats.begin();
+    controls.update();
+    update();
+    renderer.render(scene, camera);
+    composer.render();
+    stats.end();
+  }
+
+  // ----
+  // Init Lifecycle (Risize & Render)
+  // ----
+  resize();
+  render();
 };
 
-canvasSketch(sketch, settings);
+init();
