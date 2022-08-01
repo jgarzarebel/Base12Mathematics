@@ -17,6 +17,7 @@ jobs:
       - name: Installing Node ${{ matrix.node-version }}
         uses: actions/setup-node@v2
         with:
+          cache-dependency-path: interactive3DMerkaba/yarn.lock
           node-version: ${{ matrix.node-version }}
           cache: 'yarn'
       - name: Build # (1) install, (2) bundle packages, (3) build apps
