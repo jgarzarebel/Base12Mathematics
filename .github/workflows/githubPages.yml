@@ -19,11 +19,11 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'yarn'
-
       - name: Build # (1) install, (2) bundle packages, (3) build apps
+        working-directory: ./interactive3DMerkaba
         run: | 
-          yarn --cwd ./interactive3DMerkaba install     
-          yarn --cwd ./interactive3DMerkaba run build
+          yarn install     
+          yarn run build
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.4
