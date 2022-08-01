@@ -22,9 +22,8 @@ jobs:
 
       - name: Build # (1) install, (2) bundle packages, (3) build apps
         run: | 
-          cd ./interactive3DMerkaba/
-          yarn install
-          yarn run build
+          yarn --cwd ./interactive3DMerkaba install     
+          yarn --cwd ./interactive3DMerkaba run build
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.4
