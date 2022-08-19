@@ -1,6 +1,9 @@
 /* 
 Taygetan/Swaruunian 3D Merkaba
   ~ J Garza
+  TODO: 
+  - Remove glow from animation
+  - Add a loader
 */
 
 import "./style.css";
@@ -386,7 +389,7 @@ const init = () => {
             if (peakupFrames <= 0) {
               direction = "peak";
               peakupFrames = PEAKUPFRAMES; // reset
-              ultraGlowEffect(true);
+              // ultraGlowEffect(true);
             }
             break;
           case "peak":
@@ -394,7 +397,7 @@ const init = () => {
             if (peakFrames <= 0) {
               direction = "peakdown";
               peakFrames = PEAKFRAMES; // reset
-              ultraGlowEffect(false);
+              // ultraGlowEffect(false);
             }
             break;
           case "peakdown":
