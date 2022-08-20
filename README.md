@@ -84,6 +84,9 @@ In contrast to the tetrahedron merkaba that is very popular in spiritual movemen
 
 Below is an image of the Tay Merkaba from the software.
 
+![Base12Math_Empty.png](https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Empty.png?raw=true#gh-dark-mode-only)
+![Base12Math_Empty.png](https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Empty.png?raw=true#gh-light-mode-only)
+
 <img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Interactive3DMerkaba_Base.png?raw=true" width="350" height="300" />
 
 ### Spark
