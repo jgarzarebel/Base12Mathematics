@@ -1,6 +1,4 @@
-! This README file is under development.
-
-# Base 12 Mathematics
+# Base 12 Mathematics 🔢
 
 This project is dedicated to understanding the Base 12 Mathematics concepts shared by the Taygetean and Swaruunian team.
 
@@ -12,7 +10,11 @@ Because the concepts shared by the Taygetians and the Swaruunians are new and th
 
 It should also be noted that the information that the Taygetians and Swaruunians have shared is incomplete. Therefore, the gifs and animations created are based on my own understanding, knowledge, and analysis of information, as well as input from our **[amazing community](https://www.facebook.com/groups/2417635098359582)**.
 
+<br />
+
 ## ⚡ Torus Energy Dynamics Gifs
+
+### Intro
 
 The gifs that I have created below are an attempt to understand the flow of energy for the creation of a true energetic torus.
 
@@ -60,7 +62,11 @@ It is also interesting to note how the two dynamics form in 2D an infinity symbo
 <br />
 <a href="https://github.com/jgarzarebel/Base12Mathematics/blob/main/gifs/Base12Math_Infinity.gif?raw=true" target="_blank"/>[Base12Math_Infinity.gif]</a>
 
+<br />
+
 ## 🌟 Interactive [3D Merkaba](https://jgarzarebel.github.io/Base12Mathematics/)
+
+### Intro
 
 Now we have the energetic dynamics or at least a more grounded idea that can be put into practice using coils. However, the Taygetans and Swaruunians have informed us that there are better systems other than using coils, that is the use of piezoelectric crystal merkabas.
 
@@ -90,17 +96,17 @@ In the software, when the toroid completes a half turn, it produces a spark in t
 
 You can change the transparency of the Tay Merkaba to see the spark/light more clearly using the control panel.
 
-<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/images/Interactive3DMerkaba_MetalicTransparent.png?raw=true" width="350" height="300" />
+<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Interactive3DMerkaba_MetalicTransparent.png?raw=true" width="350" height="300" />
 
 ### Ether Torus
 
 Using the control panel, you can enable the torus around the Tay Merkaba which changes size with speed. The trous looks more like a donut than a torus, however my intuition for the shape of the torus was based on fluid dynamics that may physically exist around the Tay Merkaba. I may update the shape later after more research.
 
 No rotation, no ether torus.  
-<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/images/Interactive3DMerkaba_EtherTorusSmall.png?raw=true" width="350" height="300" />
+<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Interactive3DMerkaba_EtherTorusSmall.png?raw=true" width="350" height="300" />
 
 Rotation -> ether torus.  
-<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/images/Interactive3DMerkaba_EtherTorusBig?raw=true" width="350" height="300" />
+<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Interactive3DMerkaba_EtherTorusBig.png?raw=true" width="350" height="300" />
 
 ### Hide Taygetan Numbers
 
@@ -118,30 +124,44 @@ yarn install
 yarn run dev
 ```
 
+<br />
+
 ## 🎨 PNG Images
 
 Here are some images that you can use to thinker more on the ideas or to create awesome art.
 
-<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_AkashaAvatara.jpg?raw=true" width="200" height="200" />
+<br />
+
+<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_AkashaAvatara.jpg?raw=true" width="200" height="210" />
 <br />
 <a href="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_AkashaAvatara.jpg?raw=true" target="_blank"/>[Base12Math_AkashaAvatara.jpg]</a>
 ~ image created by Akasha Avatara
 
-<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Empty.png?raw=true" width="200" height="200" />
+<br />
+
+<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Empty.png?raw=true" width="200" height="210" />
 <br />
 <a href="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Empty.png?raw=true" target="_blank"/>[Base12Math_Empty.png]</a>
 
-<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Rhombus.png?raw=true" width="200" height="200" />
+<br />
+
+<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Rhombus.png?raw=true" width="200" height="210" />
 <br />
 <a href="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Rhombus.png?raw=true" target="_blank"/>[Base12Math_Rhombus.png]</a>
 
-<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Circle.png?raw=true" width="200" height="200" />
+<br />
+
+<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Circle.png?raw=true" width="200" height="210" />
 <br />
 <a href="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Circle.png?raw=true" target="_blank"/>[Base12Math_Circle.png]</a>
 
-<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Flip.png?raw=true" width="200" height="200" />
+<br />
+
+<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Flip.png?raw=true" width="200" height="210" />
 <br />
 <a href="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Flip.png?raw=true" target="_blank"/>[Base12Math_Flip.png]</a>
+
+<br />
 
 ## Q & A
 
@@ -155,7 +175,7 @@ Why does the discharge happens? The discharge or spark effect is well known to o
 <br />
 <br />
 
-# Matematica Base 12 [Español]
+# Matematica Base 12 [Español] 🔢
 
 Este proyecto está dedicado a comprender los conceptos de matemática base 12 compartidos por el equipo Taygeteano y Swaruuniano.
 
@@ -167,7 +187,11 @@ Debido a que los conceptos compartidos por los taygetianos y los swaruunianos so
 
 También se debe tener en cuenta que la información que han compartido los taygetianos y los swaruunianos es incompleta. Por lo tanto, los gifs y las animaciones creados se basan en mi propia comprensión, conocimiento y análisis de la información, así como en las aportaciones de nuestra **[grandiosa communidad](https://www.facebook.com/groups/2417635098359582)**.
 
+<br />
+
 ## ⚡ Torus Energy Dynamics Gifs
+
+### Intro
 
 Los gifs que he creado a continuación son un intento de comprender el flujo de energía para la creación de un verdadero toroide energético.
 
@@ -215,7 +239,11 @@ También es interesante notar cómo las dos dinámicas forman en 2D un patrón d
 <br />
 <a href="https://github.com/jgarzarebel/Base12Mathematics/blob/main/gifs/Base12Math_Infinity.gif?raw=true" target="_blank"/>[Base12Math_Infinity.gif]</a>
 
+<br />
+
 ## 🌟 [Merkaba 3D](https://jgarzarebel.github.io/Base12Mathematics/) Interactivo
+
+### Intro
 
 Ahora tenemos la dinámica energética o al menos una idea más fundamentada que se puede poner en práctica usando bobinas. Sin embargo, los taygetanos y los swaruunianos nos han informado que existen mejores sistemas además del uso de bobinas, es decir, el uso de merkabas de cristal piezoeléctrico.
 
@@ -245,17 +273,17 @@ En el software, cuando el toroide completa media vuelta, produce una chispa en e
 
 Usando el panel de control puede cambiar la transparencia del Tay Merkaba para ver la chispa/luz más claramente.
 
-<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/images/Interactive3DMerkaba_MetalicTransparent.png?raw=true" width="350" height="300" />
+<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Interactive3DMerkaba_MetalicTransparent.png?raw=true" width="350" height="300" />
 
 ### Toroide Èterico
 
 Usando el panel de control, tambien puede habilitar el toroide alrededor del Merkaba Tay que cambia de tamaño con la velocidad. El troide se parece más a una dona que a un toroide, sin embargo, mi intuición para la forma del toroide eterico se basó en la dinámica de fluidos que podria existir físicamente alrededor del Merkaba Tay. Quiza actualice la forma de este después de más investigación.
 
 Sin rotacion, no Toride Èterico.  
-<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/images/Interactive3DMerkaba_EtherTorusSmall.png?raw=true" width="350" height="300" />
+<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Interactive3DMerkaba_EtherTorusSmall.png?raw=true" width="350" height="300" />
 
-Rotacion -> Toride Èterico
-<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/images/Interactive3DMerkaba_EtherTorusBig?raw=true" width="350" height="300" />
+Rotacion -> Toride Èterico  
+<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Interactive3DMerkaba_EtherTorusBig.png?raw=true" width="350" height="300" />
 
 ### Ocultar Números Taygetanos
 
@@ -273,30 +301,44 @@ yarn install
 yarn run dev
 ```
 
+<br />
+
 ## 🎨 Imagenes PNG
 
 Aquí hay algunas imágenes que puede usar para pensar más en las ideas o crear arte asombroso.
+
+<br />
 
 <img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_AkashaAvatara.jpg?raw=true" width="200" height="200" />
 <br />
 <a href="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_AkashaAvatara.jpg?raw=true" target="_blank"/>[Base12Math_AkashaAvatara.jpg]</a>
 ~ imagen creada por Akasha Avatara
 
-<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Empty.png?raw=true" width="200" height="200" />
+<br />
+
+<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Empty.png?raw=true" width="200" height="210" />
 <br />
 <a href="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Empty.png?raw=true" target="_blank"/>[Base12Math_Empty.png]</a>
 
-<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Rhombus.png?raw=true" width="200" height="200" />
+<br />
+
+<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Rhombus.png?raw=true" width="200" height="210" />
 <br />
 <a href="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Rhombus.png?raw=true" target="_blank"/>[Base12Math_Rhombus.png]</a>
 
-<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Circle.png?raw=true" width="200" height="200" />
+<br />
+
+<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Circle.png?raw=true" width="200" height="210" />
 <br />
 <a href="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Circle.png?raw=true" target="_blank"/>[Base12Math_Circle.png]</a>
 
-<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Flip.png?raw=true" width="200" height="200" />
+<br />
+
+<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Flip.png?raw=true" width="200" height="210" />
 <br />
 <a href="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Flip.png?raw=true" target="_blank"/>[Base12Math_Flip.png]</a>
+
+<br />
 
 ## Q & A
 
