@@ -132,32 +132,32 @@ Here are some images that you can use to thinker more on the ideas or to create 
 
 <br />
 
-<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_AkashaAvatara.jpg?raw=true" width="200" height="210" />
+<!-- <img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_AkashaAvatara.jpg?raw=true" width="200" height="210" /> -->
 <br />
 <a href="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_AkashaAvatara.jpg?raw=true" target="_blank"/>[Base12Math_AkashaAvatara.jpg]</a>
 ~ image created by Akasha Avatara
 
 <br />
 
-<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Empty.png?raw=true" width="200" height="210" style="background-color: #1f1c1e"/>
+<!-- <img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Empty.png?raw=true" width="200" height="210" style="background-color: #1f1c1e"/> -->
 <br />
 <a href="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Empty.png?raw=true" target="_blank"/>[Base12Math_Empty.png]</a>
 
 <br />
 
-<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Rhombus.png?raw=true" width="200" height="210" style="background-color: #1f1c1e"/>
+<!-- <img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Rhombus.png?raw=true" width="200" height="210" style="background-color: #1f1c1e"/> -->
 <br />
 <a href="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Rhombus.png?raw=true" target="_blank"/>[Base12Math_Rhombus.png]</a>
 
 <br />
 
-<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Circle.png?raw=true" width="200" height="210" style="background-color: #1f1c1e"/>
+<!-- <img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Circle.png?raw=true" width="200" height="210" style="background-color: #1f1c1e"/> -->
 <br />
 <a href="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Circle.png?raw=true" target="_blank"/>[Base12Math_Circle.png]</a>
 
 <br />
 
-<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Flip.png?raw=true" width="200" height="210" style="background-color: #1f1c1e"/>
+<!-- <img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Flip.png?raw=true" width="200" height="210" style="background-color: #1f1c1e"/> -->
 <br />
 <a href="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Flip.png?raw=true" target="_blank"/>[Base12Math_Flip.png]</a>
 
@@ -309,32 +309,32 @@ Aquí hay algunas imágenes que puede usar para pensar más en las ideas o crear
 
 <br />
 
-<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_AkashaAvatara.jpg?raw=true" width="200" height="200" />
+<!-- <img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_AkashaAvatara.jpg?raw=true" width="200" height="200" /> -->
 <br />
 <a href="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_AkashaAvatara.jpg?raw=true" target="_blank"/>[Base12Math_AkashaAvatara.jpg]</a>
 ~ imagen creada por Akasha Avatara
 
 <br />
 
-<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Empty.png?raw=true" width="200" height="210" style="background-color: #1f1c1e"/>
+<!-- <img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Empty.png?raw=true" width="200" height="210" style="background-color: #1f1c1e"/> -->
 <br />
 <a href="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Empty.png?raw=true" target="_blank"/>[Base12Math_Empty.png]</a>
 
 <br />
 
-<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Rhombus.png?raw=true" width="200" height="210" style="background-color: #1f1c1e"/>
+<!-- <img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Rhombus.png?raw=true" width="200" height="210" style="background-color: #1f1c1e"/> -->
 <br />
 <a href="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Rhombus.png?raw=true" target="_blank"/>[Base12Math_Rhombus.png]</a>
 
 <br />
 
-<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Circle.png?raw=true" width="200" height="210" style="background-color: #1f1c1e"/>
+<!-- <img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Circle.png?raw=true" width="200" height="210" style="background-color: #1f1c1e"/> -->
 <br />
 <a href="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Circle.png?raw=true" target="_blank"/>[Base12Math_Circle.png]</a>
 
 <br />
 
-<img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Flip.png?raw=true" width="200" height="210" style="background-color: #1f1c1e"/>
+<!-- <img src="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Flip.png?raw=true" width="200" height="210" style="background-color: #1f1c1e"/> -->
 <br />
 <a href="https://github.com/jgarzarebel/Base12Mathematics/blob/main/images/Base12Math_Flip.png?raw=true" target="_blank"/>[Base12Math_Flip.png]</a>
 
