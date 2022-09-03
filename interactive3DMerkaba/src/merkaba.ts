@@ -55,7 +55,7 @@ const init = () => {
     merkabaRotaion: true,
     merkabaSpeed: 0,
     merkabaUltraGlow: false,
-    merkabaTransparency: Transparency.metalicTransparent,
+    merkabaTransparency: Transparency.metalic,
     merkabaSemiTransparent: false,
     etherTorus: false,
     etherTorusTickness: 0.1,
