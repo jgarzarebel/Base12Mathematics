@@ -55,7 +55,7 @@ const init = () => {
     merkabaRotaion: true,
     merkabaSpeed: 0,
     merkabaUltraGlow: false,
-    merkabaTransparency: Transparency.metalic,
+    merkabaTransparency: Transparency.metalicTransparent,
     merkabaSemiTransparent: false,
     etherTorus: false,
     etherTorusTickness: 0.1,
@@ -91,9 +91,9 @@ const init = () => {
   renderer.setSize(container.clientWidth, container.clientHeight);
   container.appendChild(renderer.domElement);
   // Camera
-  const camera = new THREE.PerspectiveCamera(45, 1, 0.01, 100);
+  const camera = new THREE.PerspectiveCamera(50, 1, 0.01, 100);
   camera.aspect = container.clientWidth / container.clientHeight;
-  camera.position.set(0, 40, 50);
+  camera.position.set(0, 14, 50);
   // Enable Oribtal Controls (Left Mouse Move)
   const controls = new OrbitControls(camera, renderer.domElement);
   controls.enabled = true;
@@ -464,7 +464,7 @@ const init = () => {
         break;
     }
   }
-  transparencyEffect(Transparency.metalic); // Init transparency
+  transparencyEffect(options.merkabaTransparency); // Init transparency
 
   // ----
   // Controls GUI
