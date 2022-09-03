@@ -93,7 +93,7 @@ const init = () => {
   // Camera
   const camera = new THREE.PerspectiveCamera(50, 1, 0.01, 100);
   camera.aspect = container.clientWidth / container.clientHeight;
-  camera.position.set(0, 14, 50);
+  camera.position.set(0, 20, 50);
   // Enable Oribtal Controls (Left Mouse Move)
   const controls = new OrbitControls(camera, renderer.domElement);
   controls.enabled = true;
